@@ -86,7 +86,7 @@ h1{
 .box-body .box-pera{
     text-align: justify;
 }
-.subscriber{
+.subscriber-sec{
     width: 900px;
     display: flex;
     box-sizing: border-box;
@@ -97,7 +97,22 @@ h1{
     margin-left: 28%;
     
 }
+.network-sec{
+    background-color: black;
+    height: 500px;
+    
+}
+.like{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 28%;
 
+}
+.footer {
+    text-align: center;
+}
 
 
 
