@@ -23,8 +23,9 @@ h1{
 .skip-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -41,14 +42,60 @@ section{
     color: white;
     font-weight: 700;
 }
-.sec-part{
+.about-sec{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #girl-img{
     width: 50%;
-    padding-right: 2%;
+    padding-right: 50px;
+}
+.recipies{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.box-sec{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.box{
+    width: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
+    
+}
+.img-style{
+    width: 100%;
+}
+.box-body{
+    padding: 5px;
+}
+.box-body .box-title{
+    font-size: 40px;
+    text-align: center;
+}
+.box-body .box-pera{
+    text-align: justify;
+}
+.subscriber{
+    width: 900px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+    
 }
 
 
